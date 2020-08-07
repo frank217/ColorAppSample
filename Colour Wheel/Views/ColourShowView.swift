@@ -2,9 +2,7 @@
 //  ColourShowView.swift
 //  Colour Wheel
 //
-//  Created by Christian P on 12/6/20.
-//  Copyright © 2020 Christian P. All rights reserved.
-//
+//  Created by Dang Jun We on 8/5/20.
 
 import SwiftUI
 

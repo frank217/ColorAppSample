@@ -3,7 +3,6 @@
 //  Colour Wheel
 //
 //  Created by Dang Jun We on 8/5/20.
-//  Copyright © 2020 Christian Privitelli. All rights reserved.
 //
 
 import SwiftUI

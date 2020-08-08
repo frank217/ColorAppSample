@@ -14,3 +14,11 @@ They both interact the same and output in [Red, Green, Blue] or [Hue, Saturation
 ![previewjpg](https://raw.githubusercontent.com/Priva28/SwiftUIColourWheel/master/preview.jpg)
 
 ![preview](https://raw.githubusercontent.com/Priva28/SwiftUIColourWheel/master/preview.gif)
+
+
+Color Info page 
+ForeGroundColor
+L = 0.2126 * r + 0.7152 * g + 0.0722 * b //RGB are fraction value
+If L > 0.179 use #000000(Black) else use #ffffff(White)
+
+

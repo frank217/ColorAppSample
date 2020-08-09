@@ -1,8 +1,14 @@
-# SwiftUI Colour Wheel
+# How to Use the Prism App
 
-A colour wheel made all in SwiftUI. 
+1) Select a color from color picker
+2) Choose a desired color mode to prism selected color.
+3) Decide how many color User want to see
+4) Get Your color mode
 
-There are 2 different colour wheels to choose from. 
+
+# SwiftUI Colour Wheel with 
+
+A color wheel made all in SwiftUI. 
 
 - The first main one uses `CIHueSaturationValueGradient` `CIFilter` to draw itself, then uses `RadialGradient` and `.blur` to smooth it out. Named `ColourWheel` in code.
 - The second one uses SwiftUI's `AngularGradient` with all 360 hues to draw the gradient, then a `RadialGradient` and `.blur` to smooth it out. Named `NewColourWheel` in code.
@@ -26,3 +32,6 @@ Note Number of Color may be limited base on colorMode
 Formula for deciding foregroundcolor
 - L = 0.2126 * r + 0.7152 * g + 0.0722 * b //RGB are fraction value
 - If L > 0.179 use #000000(Black) else use #ffffff(White)
+- More inforamtion here https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
+
+
